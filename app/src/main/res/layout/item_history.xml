@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="8dp"
+    app:cardElevation="10dp"
+    android:layout_marginBottom="16dp">
+    <LinearLayout
+        android:id="@+id/item_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageDog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <TextView
+        android:id="@+id/nameDog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="Dog Name" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:gravity="left"
+                android:text="Quantity Dog:"
+                android:textColor="#DC9A5535"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/quantityDog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="3"
+                android:textSize="20dp" />
+        </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="15dp">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:gravity="left"
+               android:text="Total Price:"
+               android:textColor="#DC9A5535"
+               android:textSize="15dp" />
+           <TextView
+               android:id="@+id/totalPrice"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="10dp"
+               android:gravity="center"
+               android:text="300.000VND"
+               android:textSize="20dp" />
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="15dp">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:gravity="left"
+               android:text="Purchase Time"
+               android:textColor="#DC9A5535"
+               android:textSize="15dp" />
+           <TextView
+               android:id="@+id/purchaseTime"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="10dp"
+               android:gravity="center"
+               android:text="12-03-2020"
+               android:textSize="20dp" />
+       </LinearLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DETELE"
+            android:textColor="#FF5722"
+            android:background="#D0C7DC"
+            android:layout_marginTop="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
